@@ -1,0 +1,9 @@
+---
+layout: page
+title: Milena's Set of Elements - Blog articles
+---
+{% for article in site.genderDiversity %}
+	<div class="article">
+		<a href="{{ article.url }}">{{ article.title }}</a>
+	</div>
+{% endfor %}
